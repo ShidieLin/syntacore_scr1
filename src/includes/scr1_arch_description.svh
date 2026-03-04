@@ -156,14 +156,14 @@ parameter int unsigned SCR1_TDU_TRIG_NUM = 2;   // number of hardware triggers
 //------------------------------------------------------------------------------
 
 // Bypasses on AXI/AHB bridge I/O
-`define SCR1_IMEM_AHB_IN_BP         // bypass instruction memory AHB bridge input register
-`define SCR1_IMEM_AHB_OUT_BP        // bypass instruction memory AHB bridge output register
-`define SCR1_DMEM_AHB_IN_BP         // bypass data memory AHB bridge input register
-`define SCR1_DMEM_AHB_OUT_BP        // bypass data memory AHB bridge output register
-`define SCR1_IMEM_AXI_REQ_BP        // bypass instruction memory AXI bridge request register
-`define SCR1_IMEM_AXI_RESP_BP       // bypass instruction memory AXI bridge response register
-`define SCR1_DMEM_AXI_REQ_BP        // bypass data memory AXI bridge request register
-`define SCR1_DMEM_AXI_RESP_BP       // bypass data memory AXI bridge response register
+//`define SCR1_IMEM_AHB_IN_BP         // bypass instruction memory AHB bridge input register
+//`define SCR1_IMEM_AHB_OUT_BP        // bypass instruction memory AHB bridge output register
+//`define SCR1_DMEM_AHB_IN_BP         // bypass data memory AHB bridge input register
+//`define SCR1_DMEM_AHB_OUT_BP        // bypass data memory AHB bridge output register
+//`define SCR1_IMEM_AXI_REQ_BP        // bypass instruction memory AXI bridge request register
+//`define SCR1_IMEM_AXI_RESP_BP       // bypass instruction memory AXI bridge response register
+//`define SCR1_DMEM_AXI_REQ_BP        // bypass data memory AXI bridge request register
+//`define SCR1_DMEM_AXI_RESP_BP       // bypass data memory AXI bridge response register
 
 `ifndef SCR1_ARCH_CUSTOM
 // Default address constants (if scr1_arch_custom.svh is not used)
